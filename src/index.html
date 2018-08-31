@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="sass/index.css">
+    <link rel="stylesheet" href="fonts/iconfont.css">
+    <script src="sass/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header">
+            <span><i class="iconfont icon-xiangzuo"></i></span>
+            <span>无连接</span>
+            <span><i class="iconfont icon-shouqi-01"></i></span>
+        </div>
+        <div class="list">
+            <dl data-name="电源">
+                <dt><i class="iconfont icon-tuichu"></i></dt>
+                <dd>电源</dd>
+            </dl>
+            <dl data-name="首页">
+                <dt><i class="iconfont icon-iconhuidaoshouye"></i></dt>
+                <dd>首页</dd>
+            </dl>
+            <dl data-name="菜单">
+                <dt><i class="iconfont icon-shouqi-01"></i></dt>
+                <dd>菜单</dd>
+            </dl>
+            <dl data-name="截屏">
+                <dt><i class="iconfont icon-gongzuojilu"></i></dt>
+                <dd>截屏</dd>
+            </dl>
+        </div>
+        <div class="content">
+            dianyuan
+        </div>
+        <div class="footer">
+            <dl>
+                <dt>
+                    <i class="iconfont icon-tian"></i>
+                </dt>
+                <dd>
+                    <button>返回</button>
+                </dd>
+            </dl>
+        </div>
+    </div>
+</body>
+<script>
+    $(".list").on("click", "dl", function() {
+        $(this).addClass("active").siblings().removeClass("active");
+        $(this).attr("data-name");
+        $(".content").html($(this).attr("data-name"));
+    })
+</script>
+
+</html>

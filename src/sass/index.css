@@ -1,0 +1,280 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: 0;
+  font-family: STHeitiSC-Light;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html,
+body,
+form,
+fieldset,
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  -webkit-text-size-adjust: none;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  font-family: arial, sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+ins,
+a {
+  text-decoration: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  display: inline-block;
+}
+
+input,
+textarea {
+  border: none;
+  background: none;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  -moz-tap-highlight-color: transparent;
+  -ms-tap-highlight-color: transparent;
+  -o-tap-highlight-color: transparent;
+}
+
+/*html {
+    font-size: $browser-default-font-size;
+}*/
+html {
+  font-size: 37.5px;
+}
+
+body,
+html,
+.wrap {
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap .header {
+  width: 94%;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 3%;
+}
+
+.wrap .list {
+  width: 100%;
+  display: flex;
+}
+
+.wrap .list dl {
+  margin-top: 10px;
+  flex: 1;
+  text-align: center;
+}
+
+.wrap .list dl dt i {
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  font-size: 24px;
+  padding: 8px;
+}
+
+.wrap .list dl dd {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.wrap .content {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap .footer {
+  width: 100%;
+  height: 60px;
+}
+
+.wrap .footer dl {
+  display: flex;
+  width: 100%;
+  height: 60px;
+}
+
+.wrap .footer dl dt {
+  margin-left: 80px;
+}
+
+.wrap .footer dl dt i {
+  font-size: 30px;
+  margin-top: 15px;
+  line-height: 60px;
+}
+
+.wrap .footer dl dd {
+  margin-left: 20px;
+}
+
+.wrap .footer dl dd button {
+  padding: 5px 60px;
+  border-radius: 10px;
+  margin-top: 18px;
+  border: none;
+  border: 1px solid #ccc;
+}
+
+.active {
+  color: red;
+}
